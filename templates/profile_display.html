@@ -1,0 +1,16 @@
+{% extends 'dummy.html' %}
+{% block title %}
+<center>
+    <title>profle_page</title>
+</center>
+{% endblock %}
+{% block body_block %}
+
+
+<center>
+    <h1>User name is {{uo.username}}</h1>
+    <h1> User email id {{uo.email}}</h1>
+    <h1>user address is {{po.address}}</h1>
+    <img src="{{po.profile.url}}" height="300px" width="300px">
+</center>
+{% endblock %}
